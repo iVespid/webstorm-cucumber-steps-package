@@ -1,0 +1,22 @@
+{
+  "name": "webstorm-cucumber-steps-package-test",
+  "version": "1.0.2",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.4.0",
+    "tsconfig-paths": "^4.2.0",
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.3.1",
+    "typescript": "^5.4.5"
+  },
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "dist/**"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
